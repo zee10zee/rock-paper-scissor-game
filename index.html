@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock paper, scissor game !</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, paper , scissor game !</h1>
+        <p>Select your choice </p>
+        
+        <div class="optionButtons">
+            <button id="rock" class="choice">Rock</button>
+            <button id="paper" class="choice">paper</button>
+            <button id="scissors" class="choice">scissors</button>
+        </div>
+
+
+
+        <!-- fieldset -->
+        <fieldset class="gameResult">
+            <legend>game result</legend>
+            <p class="chose"></p>
+            <p class="chose"></p>
+        </fieldset>
+
+        <button class="playAgain" onclick="resetGame()">play again!</button>
+    </div>
+
+    <p class="allRoundWinner" style="color: teal;">The All round winner is</p>
+
+<script src="./script.js"></script>
+</body>
+</html>
